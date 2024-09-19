@@ -1,0 +1,18 @@
+{
+    "id": "VDAAjAuYELy",
+    "manifest_version": 1,
+    "name": "iframetest",
+    "description": "A Quip Live App",
+    "version_name": "0.1.0",
+    "version_number": 4,
+    "sizing_mode": "fill_container",
+    "initial_height": 300,
+    "initial_width": -1,
+    "csp_sources": { "frame_srcs": ["https://www.blackstone-labs.com/"] },
+    "toolbar_color": "red",
+    "toolbar_icon": "assets/icons/toolbar.svg",
+    "thumbnail": "assets/icons/thumbnail.svg",
+    "js_files": ["dist/app.js"],
+    "css_files": ["assets/styles.css"],
+    "disable_app_level_comments": false
+}
